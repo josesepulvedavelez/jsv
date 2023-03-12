@@ -1,0 +1,12 @@
+CREATE DATABASE Jsv;
+USE Jsv;
+
+CREATE TABLE Sucursal
+(
+	SucursalId INT IDENTITY(1, 1) PRIMARY KEY,
+	Descripcion VARCHAR(250) NOT NULL,
+	Direccion VARCHAR(250) NOT NULL,
+	Identificacion VARCHAR(50) NOT NULL,
+	Fecha DATE,
+	Modena VARCHAR(50)
+);
